@@ -1,0 +1,39 @@
+.habilidades{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.habilidades_titulo{
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+
+.habilidades_habilidades{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.habilidades_lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media(min-width: 950px) {
+    .habilidades_titulo {
+      font-size: 50px;
+    }
+    
+    .habilidades_habilidades {
+      font-size: 30px;
+      margin: 20px;
+    }
+  }

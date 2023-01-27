@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ProyectoFinal Lind</title>
+    <link rel="stylesheet" href="CSS/barraNav.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/perfil.css" />
+    <link rel="stylesheet" href="CSS/DatosPersonales.css" />
+    <link rel="stylesheet" href="CSS/experiencias.css" />
+    <link rel="stylesheet" href="CSS/habilidades.css" />
+
+    <script defer src="JS/app.js"></script>
+    <link rel="shortcut icon" href="imagenes/incognito_icon_135478.png">
+</head>
+
+<body>
+    <header class="encabezado_Superior">
+        <nav class="nav_Superior">
+            <button class="Abrir_Menu" aria-label="Abrir menu">
+                <img src="imagenes/hamburger-icon.svg" alt=" abrir menu">
+            </button>
+
+            <ul class="menu">
+                <button class="cerrar_Menu" aria-label="Cerrar Menu">
+                    <img src="imagenes/close-icon.svg" alt="cerrar menu">
+                </button>
+                <li><a href="#perfil" class="selected">Perfil</a></li>
+                <li><a href="#DatosPersonales" >informacion Personal</a></li>
+                <li><a href="#experiencias">Experiencia</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="perfil" id="perfil">
+            <div class="perfil_info">
+                <h1 class="perfil_titulo">Hola , mi nombre es </h1>
+                <h2 class="USUARIO">Rick Adams</h2>
+                <p class="perfil_detalles">
+                    Desarrollador de software con experiencia en diseño, instalación, pruebas y mantenimiento de sistemas de software. Dominio de varias plataformas, lenguajes y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes. Buenas habilidades de colaboración dentro de un equipo productivo.
+                </p>
+            </div>
+            <span class="perfil-img-section">
+                <img class="perfil_img" src="imagenes/WhatsApp Image 2022-12-26 at 13.28.19 (1).jpeg" alt="programador" />
+                <div class="perfil-img-line"></div>
+            </span>
+        </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="DatosPersonale" id="DatosPersonales">
+            <h2 class="Datos_titulo">Informacion Personal</h2>
+            <ul class="lista">
+                <li>Fecha de nacimineto: 11/2/1976 </li>
+                <li>DNI: 213123123</li>
+                <li>Email: rick.adams@example.com </li>
+                <li>Direccion : 5969 Smokey Ln </li>
+                <li>Telefono : (412) 845-0303 </li>
+            </ul>
+        </section>
+    </div>
+
+
+
+    <section class="Experiencias" id="experiencias">
+        <div class="experiencias-body">
+          <h2 class="experiencias-title">Experiencia</h2>
+          <div class="experiencias-grid">
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experiencia">
+              <div class="experiencia-date">junio 2020 - mayo 2021</div>
+              <div class="experiencia-company"> Top Developers, S.A.</div>
+              <div class="experiencia-position">Madrid </div>
+              <div class="experiencia-description">
+                Colaboración productiva con el equipo de producción para conocer los requisitos y las especificaciones empresariales en torno a la gestión de carteras, el análisis y los riesgos.
+                Codificación eficaz de cambios y alteraciones de software en base a especificaciones de diseño concretas.
+              </div>
+            </div>
+            <div class="experiencia experiencia_left">
+              <div class="experiencia-date">mayo 2018 - abril 2020 </div>
+              <div class="experiencia-company"> Nubelia Tecnologías</div>
+              <div class="experiencia-position">Madrid</div>
+              <div class="experiencia-description">
+                Abordé eficazmente errores complejos.
+                Implementación y actualización de módulos de aplicación bajo la dirección de desarrolladores de software senior.
+                Realicé tareas de pruebas automatizadas y desarrollé funciones complejas de forma rutinaria.
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experiencia">
+              <div class="experiencia-date">2016-2018</div>
+              <div class="experiencia-company">Endava</div>
+              <div class="experiencia-position">Madrid</div>
+              <div class="experiencia-description">
+                Desarrollado de soluciones para un cliente en la industia
+                inmobiliaria y otro líder en servicios médicos en USA.
+                Implementamos una arquitectura desacoplada usando .Net para el
+                back-end y React.js en el front-end. Además de brindar
+                capacitaciones a la empresa sobre temas como Principios SOLID y
+                DDD.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades_titulo"> Habilidades</h2>
+            <ul class="habilidades_lista">
+                <li class="habilidades_habilidades">CSS </li>
+                <li class="habilidades_habilidades">HTML </li>
+                <li class="habilidades_habilidades">JavaScript </li>
+                <li class="habilidades_habilidades">C# </li>
+                <li class="habilidades_habilidades">SQL Server </li>
+                <li class="habilidades_habilidades">Python </li>
+                <li class="habilidades_habilidades">GitHub</li>
+            </ul>
+        </section>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

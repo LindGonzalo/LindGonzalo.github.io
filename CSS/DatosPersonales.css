@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.DatosPersonale {
+  display: flex;
+  flex-direction: column;
+}
+
+.Datos_titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  margin: 25px;
+}
+
+.DatosPersonales {
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.lista {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  max-width: 450px;
+  margin: 20px auto;
+
+}
+
+.lista li {
+  padding: 10px 0;
+}
+
+@media (min-width: 950px) {
+  .DatosPersonale {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Datos_titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 25px;
+  }
+  
+  .DatosPersonales {
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .lista {
+    list-style: none;
+  
+    font-size: 30px;
+    max-width: 450px;
+    margin: 20px auto;
+  
+  }
+
+}
