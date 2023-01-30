@@ -3,7 +3,7 @@
   
   box-shadow: 0 4px 5px var(--navbar-shallow-color);
   position: fixed;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(46, 44, 44);
   left: 0;
   top: 0;
   width: 100%;
@@ -72,6 +72,9 @@
 }
 
 @media (max-width: 950px) {
+  .encabezado_Superior {
+    background-color: rgb(20, 95, 207);
+  }
 
   /* Menu */
   .menu {

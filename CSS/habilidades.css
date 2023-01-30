@@ -30,10 +30,11 @@ text-align: center;
 @media(min-width: 950px) {
     .habilidades_titulo {
       font-size: 50px;
+      margin: 30px;
     }
     
     .habilidades_habilidades {
       font-size: 30px;
-      margin: 20px;
+      margin: 30px;
     }
   }
